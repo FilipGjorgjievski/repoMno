@@ -23,6 +23,7 @@ public class FinalProjectTest extends BaseClass {
         System.out.println("--Edited--");
         System.out.println("2");
         System.out.println("4");
+        System.out.println("newcomment");
         homePage = new HomePage(driver);
         homePage.clickOnTrendingStylesButton();
         backgroundPage = new BackgroundPage(driver);
