@@ -22,6 +22,7 @@ public class FinalProjectTest extends BaseClass {
         System.out.println("IZMENA");
         System.out.println("--Edited--");
         System.out.println("2");
+        System.out.println("4");
         homePage = new HomePage(driver);
         homePage.clickOnTrendingStylesButton();
         backgroundPage = new BackgroundPage(driver);
