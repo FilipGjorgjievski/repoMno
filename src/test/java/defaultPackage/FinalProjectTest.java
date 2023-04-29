@@ -20,7 +20,8 @@ public class FinalProjectTest extends BaseClass {
     @Test
     public void task() throws InterruptedException, AWTException {
         System.out.println("IZMENA");
-        System.out.println("--Edited--")
+        System.out.println("--Edited--");
+        System.out.println("2");
         homePage = new HomePage(driver);
         homePage.clickOnTrendingStylesButton();
         backgroundPage = new BackgroundPage(driver);
